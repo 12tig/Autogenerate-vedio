@@ -1,0 +1,11 @@
+[server]
+host = "127.0.0.1"
+port = 8000
+reload = true
+
+[deepseek]
+api_key = "your-deepseek-api-key"
+
+[proxy]
+http = "http://127.0.0.1:7890"
+https = "http://127.0.0.1:7890"
